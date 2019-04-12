@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
+	font-weight: 400;
+	color: #424242;
+}
+
+
+.btn-text {
+	padding: 6px 16px;
+	border-radius: 17px;
+}
+	.btn-text:hover {
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+
+
+.chip {
+	padding: 6px 16px;
+	border-radius: 17px;
+}
+
+	.chip.active, .chip.active:hover, chip:hover {
+			color: #fff;
+			background-color: #424242;
+		}
+
+
+	.chip:hover {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+

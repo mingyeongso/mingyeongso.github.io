@@ -1,0 +1,30 @@
+.contents {
+	background-color: #FAFAFA;
+}
+
+	.selected-work {
+		width: 1140px;
+		margin: 0 auto;
+		padding: 108px 0 0 0;
+	}
+
+		.selected-work-title {
+
+		}
+
+		.selected-work-filter {
+			padding-top: 36px;
+		}
+
+		.selected-work-list {
+			padding-top: 36px;
+			display: flex;
+		}
+
+			.selected-work-list-pic {
+				flex: auto;
+				width: 33.33%;
+				height: 200px;
+				background-color: black;
+				margin: 16px;
+			}
