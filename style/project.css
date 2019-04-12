@@ -7,23 +7,38 @@
 .project-info {
 	position: absolute;
 	z-index: 1;
-	top: 680px;
+	top: 640px;
 	width: 100%;
 }
 
 	.project-info-box {
-		height: 408px;
+		padding: 40px 52px;
 		width: 1320px;
 		margin: 0 auto;
 		background-color: #fff;
 	}
+
+		.project-info-coworker {
+			margin-top: 44px;
+		}
+
+		.project-info-role {
+			margin-top: 52px;
+
+		}
+
 
 
 .project-contents {
 	width: 100%;
 }
 
-.project-contents-box {
-	width: 1320px;
-	margin: 0 auto;
-}
+	.project-contents-box {
+		width: 1320px;
+		margin: 0 auto;
+	}
+
+		.project-contents-problem {
+			padding: 360px 0;
+			text-align: center;
+		}

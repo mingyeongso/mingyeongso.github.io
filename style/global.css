@@ -2,6 +2,7 @@
 	width: 100%;
 	height: 107px;
 	position: fixed;
+	z-index: 999;
 }
 
 	.nav-box {
