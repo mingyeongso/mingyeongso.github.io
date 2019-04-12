@@ -1,0 +1,29 @@
+.project-cover {
+	background-color: #FCFCFC;
+	height: 1024px;
+
+}
+
+.project-info {
+	position: absolute;
+	z-index: 1;
+	top: 680px;
+	width: 100%;
+}
+
+	.project-info-box {
+		height: 408px;
+		width: 1320px;
+		margin: 0 auto;
+		background-color: #fff;
+	}
+
+
+.project-contents {
+	width: 100%;
+}
+
+.project-contents-box {
+	width: 1320px;
+	margin: 0 auto;
+}
