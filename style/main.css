@@ -21,23 +21,38 @@
 			}
 
 		.selected-work-list {
-			padding-top: 36px;
-			display: flex;
-			margin: 0 -16px;
+			margin-top: 56px;
 		}
 
-			.selected-work-list li {
-				flex: auto;
-				height: 320px;
-				background-color: #F0F0F0;
-				margin: 32px;
-				-webkit-box-shadow: 0 5px 3px 0px rgba(0,0,0,.1), 0 6px 15px -2px rgba(0,0,0,.1);
-    			box-shadow: 0 5px 3px 0px rgba(0,0,0,.1), 0 6px 15px -2px rgba(0,0,0,.1);
+			.selected-work-list-row {
+				padding-bottom: 36px;
+				display: flex;
+				margin: 0 -32px;
 			}
 
-			.selected-work-list li.selected-work-list-disabled {
-				background-color: rgba(0, 0, 0, 0);
-				margin: 16px;
-				-webkit-box-shadow: none;
-				box-shadow: none;
-			}
+				.selected-work-list-row:last-child {
+					padding-bottom: 0;
+				}
+
+					.selected-work-list-row a {
+						flex: 1;
+						margin: 0 32px;
+					}
+
+							.selected-work-list-row a .selected-work-list-pic {
+								height: 320px;
+								background-color: #F0F0F0;
+								-webkit-box-shadow: 0 5px 3px 0px rgba(0,0,0,.1), 0 6px 15px -2px rgba(0,0,0,.1);
+				    			box-shadow: 0 5px 3px 0px rgba(0,0,0,.1), 0 6px 15px -2px rgba(0,0,0,.1);
+							}
+
+							.selected-work-list-row a p {
+								margin-top: 24px;
+							}
+
+							.selected-work-list-row a.disabled .selected-work-list-pic {
+								background-color: rgba(0, 0, 0, 0);
+								-webkit-box-shadow: none;
+								box-shadow: none;
+								color: rgba(0, 0, 0, 0);
+							}

@@ -33,4 +33,16 @@
 
 .contents {
 	padding-top: 107px;
+	padding-bottom: 240px;
 }
+
+.footer {
+	width: 100%;
+}
+
+	.footer-box {
+		padding: 60px 0 100px;
+		width: 1320px;
+		margin: 0 auto;
+		color: #757575;
+	}

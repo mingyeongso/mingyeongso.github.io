@@ -26,8 +26,14 @@ body {
 			background-color: #424242;
 		}
 
+	.chip.disabled {
+		color: #BDBDBD;
+		}
+
 
 	.chip:hover {
 			background-color: rgba(0, 0, 0, 0.05);
 		}
+
+
 
