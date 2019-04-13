@@ -26,7 +26,7 @@ body {
 
 	.chip.active, .chip.active:hover, chip:hover {
 		color: #fff;
-		background-color: #424242;
+		background-color: #212121;
 		}
 
 	.chip.disabled {
