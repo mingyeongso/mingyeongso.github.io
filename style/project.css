@@ -18,6 +18,11 @@
 		background-color: #fff;
 	}
 
+		.project-info-title h1 {
+			font-weight: bold;
+			display: inline;
+		}
+
 		.project-info-coworker {
 			margin-top: 44px;
 		}

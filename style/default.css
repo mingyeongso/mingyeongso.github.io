@@ -12,7 +12,10 @@ body {
 	border-radius: 17px;
 }
 	.btn-text:hover {
-		background-color: rgba(0, 0, 0, 0.05);
+		opacity: 0.2;
+	    transition-duration: 0.1s;
+	    transition-property: opacity;
+	    transition-timing-function: linear;
 	}
 
 
@@ -22,8 +25,8 @@ body {
 }
 
 	.chip.active, .chip.active:hover, chip:hover {
-			color: #fff;
-			background-color: #424242;
+		color: #fff;
+		background-color: #424242;
 		}
 
 	.chip.disabled {
@@ -33,6 +36,9 @@ body {
 
 	.chip:hover {
 			background-color: rgba(0, 0, 0, 0.05);
+			transition-duration: 0.4s;
+		    transition-property: background-color;
+		    transition-timing-function: linear;
 		}
 
 
