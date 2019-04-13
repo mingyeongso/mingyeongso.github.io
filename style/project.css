@@ -1,6 +1,8 @@
 .project-cover {
 	background-color: #FCFCFC;
 	height: 1024px;
+	background-image: url("../img/cover-project4.png");
+	background-size: contain;
 
 }
 
