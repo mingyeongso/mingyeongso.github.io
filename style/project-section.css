@@ -111,7 +111,7 @@
 
 	.flow-border.flex-px {
 		flex: 320px;
-		margin: 0;
+		margin: 0 20px 0 32px;
 		padding-top: 168px;
 	}
 
