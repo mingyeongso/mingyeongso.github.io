@@ -16,6 +16,8 @@
 	.section-needs h2 {
 		text-align: center;
 		color: #212121;
+
+		font-weight: bold;
 	}
 
 	.section-needs p {
@@ -37,7 +39,9 @@
 		.asis-img div {
 			height: 600px;
 			border-radius: 3px;
-			background-color: rgba(0, 0, 0, 0.5);
+			-webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+		    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+
 		}
 
 
@@ -47,15 +51,15 @@
 		
 	}
 
-		.asis-text-list h5 {
-			margin-top: 42px;
+		.contents-list-text h5 {
+			margin-top: 36px;
 		}
 
-		.asis-text-list:first-child h5 {
+		.contents-list-text:first-child h5 {
 			margin-top: 0;
 		}
 
-		.asis-text-list p {
+		.contents-list-text p {
 			margin-top: 4px;
 		}
 
@@ -66,9 +70,11 @@
 }
 	.goal-card {
 		border-radius: 3px;
-		background-color: #FCFCFC;
+		background-color: #fff;
 		text-align: center;
-		padding: 128px 100px;
+		padding: 128px 100px 140px;
+		-webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+	    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
 
 	}
 
@@ -87,10 +93,65 @@
 }
 
 	.section-flow .section-body{
-		height:500px;
 		background-color: #FCFCFC;
+		border: 1px solid rgba(0, 0, 0, 0.03);
+		border-radius: 3px;
 		
 	}
+
+
+	.flow-contents-box {
+		margin: 0 auto;
+		padding: 120px 180px
+	}
+
+	.flow-main.flex-px {
+		flex: 192px;
+	}
+
+	.flow-border.flex-px {
+		flex: 320px;
+		margin: 0;
+		padding-top: 168px;
+	}
+
+	.flow-main {
+		text-align: center;
+		font-weight: bold;
+		font-size: ;
+	}
+
+		.flow-main-circle {
+			margin: 0 auto;
+			background-color: rgba(0, 0, 0, 0.75);
+			height: 192px;
+			width: 192px;
+			border-radius: 100%;
+		}
+
+			.flow-main-circle-text {
+				padding-top: 78px;
+				color: #fff;
+			}
+
+	.section-flow .contents-list-text h5 {
+	}
+
+	.section-flow .vertical-line {
+		height: 40px;
+		margin: 12px auto;
+		width: 1px;
+		background-color: rgba(0, 0, 0, 0.3);
+
+	}
+
+	.section-flow .horizon-line {
+		height: 1px;
+		margin: 24px auto;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
 
 .section-layout {
 
@@ -103,6 +164,12 @@
 	.layout-view {
 		background-color: #FCFCFC;
 		height: fit-content;
+		color: #424242;
+
+	}
+
+	.layout-view.asis {
+
 		color: #757575;
 
 	}
@@ -112,6 +179,7 @@
 		padding: 36px 40px;
 		border-top: 1px rgba(0, 0, 0, 0.03) solid;
 		font-size: 16px;
+
 
 	}
 
@@ -129,10 +197,12 @@
 		
 		border-top: none;
 
+
 	}
 
 	.layout-view .flex-box > div:nth-child(2n) {
 		border-left: 1px rgba(0, 0, 0, 0.03) solid;
+		margin-left: -24px;
 	}
 
 .section-responsive {
