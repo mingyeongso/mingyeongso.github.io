@@ -42,8 +42,8 @@ body {
 		background-color: #fff;
 		width: 1320px;
 		margin: 0 auto;
-		padding-top: 44px;
-		padding-bottom: 44px;
+		padding-top: 56px;
+		padding-bottom: 80px;
 	}
 
 		.project-info {
@@ -67,6 +67,23 @@ body {
 					.project-info-coworker li {
 						margin-right: 40px;
 					}
+
+					.coworker-job {
+						font-size: 16px;
+						font-weight: bold;
+
+
+					}
+
+					.coworker-name {
+						margin-top: 2px;
+					}
+
+				.project-year {
+					margin-top: 24px;
+				}
+
+
 
 				.project-info-role {
 					margin-top: 52px;
