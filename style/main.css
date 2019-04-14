@@ -2,12 +2,18 @@
 .main-contents {
 	padding-top: 107px;
 	padding-bottom: 240px;
+	background-color: #fff;
 }
 
 	.selected-work {
-		width: 1320px;
+		width: 1440px;
 		margin: 0 auto;
 		padding: 108px 0 0 0;
+	}
+
+	.selected-work > * {
+		padding-left: 52px;
+		padding-right: 52px;
 	}
 
 		.selected-work-title {
@@ -28,8 +34,6 @@
 
 			.selected-work-list-row {
 				padding-bottom: 36px;
-				display: flex;
-				margin: 0 -32px;
 			}
 
 				.selected-work-list-row:last-child {
@@ -37,8 +41,6 @@
 				}
 
 					.selected-work-list-row a {
-						flex: 1;
-						margin: 0 32px;
 					}
 
 							.selected-work-list-row a .selected-work-list-pic {
@@ -70,7 +72,7 @@
 								margin-top: 24px;
 							}
 
-							.selected-work-list-row a.disabled .selected-work-list-pic {
+							.selected-work-list-row a .selected-work-list-pic.disabled  {
 								background-color: rgba(0, 0, 0, 0);
 								-webkit-box-shadow: none;
 								box-shadow: none;

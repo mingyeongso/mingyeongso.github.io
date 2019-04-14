@@ -5,7 +5,8 @@ body {
 	font-weight: 400;
 	font-size: 20px;
 	color: #424242;
-	background: linear-gradient(#FAFAFA, #ffffff);
+	background: #FAFAFA;
+	
 	word-break: keep-all;
 }
 
@@ -135,12 +136,22 @@ div {
 			margin: 0 24px;
 		}
 
+	.flex-auto {
+			flex: auto;
+			margin: 0 24px;
+		}
+
+	.flex-px {
+			margin: 0 24px;
+		}
+
 .card {
 	border-radius: 3px;
 	-webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
     box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
 }
    
+
 
 	
 

@@ -1,15 +1,16 @@
 /*title*/
 
 h1 {
-	font-size: 60px;
+	font-size: 90px;
 	font-weight: bold;
-	letter-spacing: -0.5px;
+	letter-spacing: -2.5px;
+    line-height: 98px;
 }
 
 
 h2 {
 	font-size: 48px;
-	letter-spacing: -2.5px;
+	letter-spacing: -2.8px;
 }
 
 h3 {
