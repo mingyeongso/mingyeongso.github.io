@@ -1,14 +1,26 @@
-.section-needs {
-
+.project-contents-section .section-needs {
+	margin-top: 100px;
 }
+
+
+
+	.section-needs .section-body {
+		text-align: center;
+		padding: 160px 0 120px;
+
+	}
+
+
 
 
 	.section-needs h2 {
 		text-align: center;
-		padding: 60px 0;
 		color: #212121;
 	}
 
+	.section-needs p {
+		margin-top: 36px;
+	}
 
 
 
@@ -23,8 +35,9 @@
 
 
 		.asis-img div {
-			height: 300px;
-			background-color: black;
+			height: 600px;
+			border-radius: 3px;
+			background-color: rgba(0, 0, 0, 0.5);
 		}
 
 
@@ -79,4 +92,86 @@
 		
 	}
 
+.section-layout {
 
+}
+
+.section-layout .section-body .flex-box {
+
+}
+
+	.layout-view {
+		background-color: #FCFCFC;
+		height: fit-content;
+		color: #757575;
+
+	}
+
+	.layout-view .flex-box > div {
+		text-align: center;
+		padding: 36px 40px;
+		border-top: 1px rgba(0, 0, 0, 0.03) solid;
+		font-size: 16px;
+
+	}
+
+	.layout-view .flex-box.narrow > div {
+		padding: 16px 40px;
+
+	}
+
+	.layout-view .flex-box.wide > div {
+		padding: 80px 40px;
+
+	}
+
+	.layout-view .flex-box:first-child > div {
+		
+		border-top: none;
+
+	}
+
+	.layout-view .flex-box > div:nth-child(2n) {
+		border-left: 1px rgba(0, 0, 0, 0.03) solid;
+	}
+
+.section-responsive {
+
+}
+
+/*.section-responsive .flex-box:last-child {
+	margin-top: 16px;
+	
+}*/
+
+.section-responsive div > div {
+	
+
+}
+	
+
+	.section-responsive .responsive-web {
+		height: 1000px;
+		background-color: #FCFCFC;
+	}
+
+
+	.section-responsive .responsive-tablet {
+		height: 500px;
+		background-color: #FCFCFC;
+	}
+
+	.section-responsive .responsive-mobile {
+		height: 360px;
+		background-color: #FCFCFC;
+	}
+
+
+.section-components {
+
+}
+
+	.section-components .ui-components{
+		background-color: #FCFCFC;
+		height: 1000px;
+	}

@@ -15,7 +15,6 @@ p {
 }
 
 div {
-	border-radius: 3px;
 }
 
 
@@ -63,72 +62,72 @@ div {
 
 	.flex-1 {
 			flex: 1;
-			padding: 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-2 {
 			flex: 2;
-			padding: 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-3 {
 			flex: 3;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-4 {
 			flex: 4;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-5 {
 			flex: 5;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-6 {
 			flex: 6;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-7 {
 			flex: 7;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-8 {
 			flex: 8;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 	.flex-9 {
 			flex: 9;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-10 {
 			flex: 10;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-11 {
 			flex: 11;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 
 	.flex-12 {
 			flex: 12;
-			padding: 0 24px;
+			margin: 0 24px;
 		}
 
 .card {

@@ -36,25 +36,23 @@ body {
 	position: relative;
 	margin-top: 680px;
 	z-index: 10;
-
 }
 
 	.project-contents-box {
 		background-color: #fff;
 		width: 1320px;
-		padding: 40px 0;
 		margin: 0 auto;
+		padding-top: 44px;
+		padding-bottom: 44px;
 	}
-
-	.project-contents-box > div {
-		padding: 0 52px;
-	}
-
 
 		.project-info {
+			padding-bottom: 120px;
+			border-bottom: 1px rgba(0, 0, 0, .03) solid;
 		}
 
 			.project-info-box {
+				padding: 0 52px;
 			}
 
 				.project-info-title h1 {
@@ -66,13 +64,21 @@ body {
 					margin-top: 44px;
 				}
 
+					.project-info-coworker li {
+						margin-right: 40px;
+					}
+
 				.project-info-role {
 					margin-top: 52px;
 
 				}
 
-
 		.project-contents-section {
+			padding: 0 52px;
+		}
+
+
+		.project-contents-section > div{
 			margin-top: 220px;
 
 		}
@@ -96,4 +102,16 @@ body {
 					color: #757575;
 					margin-top: 4px;
 				}
+
+.proejct-footer {
+	margin-top: 120px;
+	padding-top: 40px;
+	border-top: 1px rgba(0, 0, 0, .03) solid;
+	text-align: center;
+}
+
+.footer {
+	margin-top: 120px;
+}
+
 
