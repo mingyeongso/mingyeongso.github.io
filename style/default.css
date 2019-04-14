@@ -5,7 +5,7 @@ body {
 	font-weight: 400;
 	font-size: 20px;
 	color: #424242;
-	background: linear-gradient(#FAFAFA, #ffffff);
+	background: #FAFAFA;
 	word-break: keep-all;
 }
 
@@ -20,6 +20,12 @@ div {
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a.disable {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.2;
 }
 
 

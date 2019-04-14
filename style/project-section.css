@@ -73,8 +73,11 @@
 		background-color: #fff;
 		text-align: center;
 		padding: 128px 100px 140px;
-		-webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
-	    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+/*		-webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+	    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);*/
+	    background-color: #FCFCFC;
+		border: 1px solid rgba(0, 0, 0, 0.03);
+		border-radius: 3px;
 
 	}
 
@@ -170,7 +173,6 @@
 
 	.layout-view.asis {
 
-		color: #757575;
 
 	}
 
@@ -215,27 +217,46 @@
 }*/
 
 .section-responsive div > div {
-	
+	margin-top: 20px;
 
 }
 	
 
 	.section-responsive .responsive-web {
-		height: 1000px;
+		height: 2040px;
 		background-color: #FCFCFC;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 1px solid rgba(0, 0, 0, 0.03);
+		border-radius: 3px;
+
 	}
 
 
 	.section-responsive .responsive-tablet {
 		height: 500px;
 		background-color: #FCFCFC;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 1px solid rgba(0, 0, 0, 0.03);
+		border-radius: 3px;
 	}
 
 	.section-responsive .responsive-mobile {
 		height: 360px;
 		background-color: #FCFCFC;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 1px solid rgba(0, 0, 0, 0.03);
+		border-radius: 3px;
+
 	}
 
+
+	.img-caption {
+		margin-top: 8px !important;
+		margin-bottom: 24px;
+	}
 
 .section-components {
 
@@ -244,4 +265,7 @@
 	.section-components .ui-components{
 		background-color: #FCFCFC;
 		height: 1000px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 1px solid rgba(0, 0, 0, 0.03);
 	}

@@ -45,7 +45,7 @@ body {
 		width: 1320px;
 		margin: 0 auto;
 		padding-top: 56px;
-		padding-bottom: 80px;
+		padding-bottom: 56px;
 	}
 
 		.project-info {
@@ -53,7 +53,7 @@ body {
 		}
 
 			.project-info-box {
-				padding: 0 72px;
+				padding: 0 68px;
 			}
 
 				.project-info-title h1 {
@@ -66,6 +66,7 @@ body {
 				}
 
 					.project-info-coworker li {
+						vertical-align: top;
 						margin-right: 40px;
 					}
 
@@ -91,13 +92,18 @@ body {
 
 				}
 
+				.project-info-role li {
+					margin-right: 8px;
+
+				}
+
 .project-contents-section {
 }
 
 		.project-contents-section .section {
 			border-top: 1px solid rgba(0, 0, 0, 0.03);
 			padding-top: 140px;
-			padding: 0 72px;
+			padding: 0 68px;
 		}
 
 
@@ -132,8 +138,14 @@ body {
 	margin-top: 120px;
 	padding-top: 40px;
 	border-top: 1px rgba(0, 0, 0, .03) solid;
-	text-align: center;
+	text-align: right;
+	padding: 40px 68px 0;
 }
+
+	.proejct-footer a {
+		font-size: 20px;
+		font-weight: bold;
+	}
 
 .footer {
 	margin-top: 120px;

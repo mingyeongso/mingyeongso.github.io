@@ -2,6 +2,7 @@
 .main-contents {
 	padding-top: 107px;
 	padding-bottom: 240px;
+	background-color: #fff;
 }
 
 	.selected-work {
@@ -45,7 +46,10 @@
 								height: 320px;
 								background-color: #F0F0F0;
 								border-radius: 3px;
-								background-size: contain;
+								background-size: 260px;
+								background-repeat: no-repeat;
+							    background-position-x: 50%;
+							    background-position-y: 50%;
 								-webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
 								box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
 							}

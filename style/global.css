@@ -36,7 +36,6 @@
 
 .footer {
 	width: 100%;
-	border-top: 1px rgba(0, 0, 0, 0.03) solid;
 }
 
 	.footer-box {
@@ -45,4 +44,6 @@
 		width: 1320px;
 		margin: 0 auto;
 		color: #757575;
+		font-size: 16px;
+		line-height: 22px;
 	}
