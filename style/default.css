@@ -3,8 +3,22 @@ body {
 	padding: 0;
 	font-family: 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
 	font-weight: 400;
+	font-size: 20px;
 	color: #424242;
+	background: linear-gradient(#FAFAFA, #ffffff);
+	word-break: keep-all;
 }
+
+p {
+	font-size: 16px;
+	color: #757575;
+}
+
+div {
+	border-radius: 3px;
+}
+
+
 
 
 .btn-text {
@@ -41,5 +55,89 @@ body {
 		    transition-timing-function: linear;
 		}
 
+
+.flex-box {
+	display: flex;
+	margin: 0 -24px;
+}
+
+	.flex-1 {
+			flex: 1;
+			padding: 24px;
+		}
+
+
+	.flex-2 {
+			flex: 2;
+			padding: 24px;
+		}
+
+
+	.flex-3 {
+			flex: 3;
+			padding: 0 24px;
+		}
+
+
+	.flex-4 {
+			flex: 4;
+			padding: 0 24px;
+		}
+
+
+	.flex-5 {
+			flex: 5;
+			padding: 0 24px;
+		}
+
+
+	.flex-6 {
+			flex: 6;
+			padding: 0 24px;
+		}
+
+
+	.flex-7 {
+			flex: 7;
+			padding: 0 24px;
+		}
+
+
+	.flex-8 {
+			flex: 8;
+			padding: 0 24px;
+		}
+
+	.flex-9 {
+			flex: 9;
+			padding: 0 24px;
+		}
+
+
+	.flex-10 {
+			flex: 10;
+			padding: 0 24px;
+		}
+
+
+	.flex-11 {
+			flex: 11;
+			padding: 0 24px;
+		}
+
+
+	.flex-12 {
+			flex: 12;
+			padding: 0 24px;
+		}
+
+.card {
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+   
+
+	
 
 

@@ -1,52 +1,99 @@
-.project-cover {
+body {
 	background-color: #FCFCFC;
-	height: 1024px;
-	background-image: url("../img/cover-project4.png");
-	background-size: contain;
+	background-size: 100%;
 
 }
 
-.project-info {
+.project-cover {
 	position: absolute;
-	z-index: 1;
-	top: 640px;
-	width: 100%;
+	z-index: 0;
+	top: -100px;
+	left:50%;
+	margin-left: 40px;
+	width: 80%;
+	max-width: 1000px;
+	min-width: 500px;
+	height: 1500px;
+	background-position-x: center;
+	background: linear-gradient(200deg, rgb(255, 255, 255, 0) 20%, rgb(255, 255, 255, 0.3), #FCFCFC 70%), linear-gradient(200deg, rgb(255, 255, 255, 0), rgb(255, 255, 255, 0.015) 90%), url(../img/cover-project3.png);
+	background-size: contain;
+	-webkit-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+    -o-transform:rotate(-20deg);
+    transform:rotate(-20deg) translateX(-50%); 
+    opacity: 1;
+    border-radius: 3px;
+    box-shadow: -1px -5px 10px -5px rgba(0,0,0,.02);
 }
+	
 
-	.project-info-box {
-		padding: 40px 52px;
-		width: 1320px;
-		margin: 0 auto;
-		background-color: #fff;
-	}
-
-		.project-info-title h1 {
-			font-weight: bold;
-			display: inline;
-			color: #212121
-		}
-
-		.project-info-coworker {
-			margin-top: 44px;
-		}
-
-		.project-info-role {
-			margin-top: 52px;
-
-		}
 
 
 
 .project-contents {
 	width: 100%;
+	position: relative;
+	margin-top: 680px;
+	z-index: 10;
+
 }
 
 	.project-contents-box {
+		background-color: #fff;
 		width: 1320px;
+		padding: 40px 0;
 		margin: 0 auto;
 	}
 
-		.project-contents-problem {
-			padding: 360px 0;
-			text-align: center;
+	.project-contents-box > div {
+		padding: 0 52px;
+	}
+
+
+		.project-info {
 		}
+
+			.project-info-box {
+			}
+
+				.project-info-title h1 {
+					display: inline;
+					color: #212121
+				}
+
+				.project-info-coworker {
+					margin-top: 44px;
+				}
+
+				.project-info-role {
+					margin-top: 52px;
+
+				}
+
+
+		.project-contents-section {
+			margin-top: 220px;
+
+		}
+
+			.section-title {
+				font-weight: bold;
+
+			}
+
+			.section-body {
+				margin-top: 60px;
+				font-family: 'Noto Sans KR', 'Helvetica Neue','helvetica', 'airal', san-serif;
+			}
+				.section-body h5 {
+					font-weight: bold;
+					color: #212121;
+				}
+
+
+				.section-body p {
+					color: #757575;
+					margin-top: 4px;
+				}
+

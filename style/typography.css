@@ -1,43 +1,32 @@
-.title1 {
+/*title*/
+
+h1 {
 	font-size: 60px;
+	font-weight: bold;
 }
 
-.title2 {
+
+h2 {
 	font-size: 48px;
 }
 
-.title3 {
+h3 {
 	font-size: 34px;
 }
 
-.title4 {
+h4 {
 	font-size: 24px;
 }
 
-.title5 {
+h5 {
 	font-size: 20px;
 }
 
-.body1 {
-	font-size: 20px;
-}
-
-.body2 {
+p {
 	font-size: 16px;
 }
 
-.body3 {
-	font-size: 14px;
-}
-
-.body4 {
+caption {
 	font-size: 12px;
 }
 
-.caption1 {
-	font-size: 12px;
-}
-
-.caption2 {
-	font-size: 10px;
-}

@@ -3,6 +3,7 @@
 	height: 107px;
 	position: fixed;
 	z-index: 999;
+	top: 0;
 }
 
 	.nav-box {
@@ -35,9 +36,11 @@
 
 .footer {
 	width: 100%;
+	border-top: 1px rgba(0, 0, 0, 0.03) solid;
 }
 
 	.footer-box {
+
 		padding: 60px 0 100px;
 		width: 1320px;
 		margin: 0 auto;
