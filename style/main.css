@@ -5,6 +5,11 @@
 	background-color: #fff;
 }
 
+.main-contents > * {
+	padding-left: 36px !important;
+	padding-right: 36px !important;
+}
+
 	.selected-work {
 		width: 1320px;
 		margin: 0 auto;

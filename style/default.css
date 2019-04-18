@@ -60,6 +60,7 @@ a.disable {
 	.chip.disabled {
 		color: #BDBDBD;
 		border: none;
+	    background: none;
 		}
 
 
