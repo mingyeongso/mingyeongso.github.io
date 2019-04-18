@@ -4,25 +4,30 @@ h1 {
 	font-size: 60px;
 	font-weight: bold;
 	letter-spacing: -0.5px;
+	font-family: 'Roboto Slab', 'Roboto', 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
 }
 
 
 h2 {
 	font-size: 48px;
 	letter-spacing: -2.5px;
+	font-family: 'Roboto Slab', 'Roboto', 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
 }
 
 h3 {
 	font-size: 34px;
+	font-family: 'Roboto Slab', 'Roboto', 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
 
 }
 
 h4 {
 	font-size: 24px;
+	font-family: 'Roboto Slab', 'Roboto', 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
 }
 
 h5 {
 	font-size: 20px;
+	font-family: 'Roboto Slab', 'Roboto', 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
 }
 
 p {

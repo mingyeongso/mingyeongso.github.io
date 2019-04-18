@@ -4,7 +4,12 @@
 	position: fixed;
 	z-index: 999;
 	top: 0;
+	background-color: transparent;
 }
+
+	.nav.shown {
+		box-shadow: rgba(75, 86, 99, 0.094) 0px 8px 16px;
+	}
 
 	.nav-box {
 		position: relative;
@@ -19,6 +24,8 @@
 			left: 36px;
 			z-index: 1;
 			font-weight: 600;
+			color: #212121;
+			letter-spacing: 0.1px;
 		}
 
 		.nav-link {
@@ -27,6 +34,7 @@
 			right: 36px;
 			z-index: 1;
 			margin: 0;
+			font-size: 16px;
 		}
 
 			.nav-link li {
@@ -40,10 +48,10 @@
 
 	.footer-box {
 
-		padding: 60px 0 100px;
+		padding: 56px 0 100px;
 		width: 1320px;
 		margin: 0 auto;
-		color: #757575;
-		font-size: 16px;
+		color: #9E9E9E;
+		font-size: 12px;
 		line-height: 22px;
 	}

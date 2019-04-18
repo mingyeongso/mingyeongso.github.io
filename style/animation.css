@@ -1,17 +1,17 @@
 /* css */
-.nav { 
-	background-color: transparent;
-}
-.nav.shown { 
+
+
+.shown { 
 	background-color: #fff; 
 	transition-duration: 0.2s;
-    transition-property: background;
+    transition-property: background-color;
     transition-timing-function: linear;
 }
 
-.main.shown { 
-	background-color: #fff; 
-	transition-duration: 0.1s;
+	.project-cover.hide {
+	transition-duration: 0.5s;
     transition-property: opacity;
+    opacity: 0;
     transition-timing-function: linear;
+
 }

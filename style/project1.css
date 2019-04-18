@@ -1,7 +1,6 @@
 .project-cover {
-
-	background: linear-gradient(200deg, rgb(255, 255, 255, 0) 20%, rgb(255, 255, 255, 0.3), #FCFCFC 70%), linear-gradient(200deg, rgb(255, 255, 255, 0), rgb(255, 255, 255, 0.015) 90%), 
-	url(../img/cover-project1.jpg);
+	background: linear-gradient(200deg, rgb(255, 255, 255, 0) 20%, rgb(255, 255, 255, 0.3), #f9fafb 70%), linear-gradient(200deg, rgb(255, 255, 255, 0), rgb(255, 255, 255, 0.015) 90%), url(../img/cover-project1.png);
+	
  	background-repeat: no-repeat;
  	background-size: contain;
 }
