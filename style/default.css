@@ -17,10 +17,10 @@ p {
 div {
 }
 
-* {
+/** {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}*/
 
 a.disable {
   pointer-events: none;

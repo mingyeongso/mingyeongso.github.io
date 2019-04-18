@@ -9,6 +9,7 @@
 }
 
 	.project-cover.hide {
+	visibility: hidden;
 	transition-duration: 0.5s;
     transition-property: opacity;
     opacity: 0;

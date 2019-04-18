@@ -60,7 +60,8 @@ body {
 
 				.project-info-title h1 {
 					display: inline;
-					color: #212121
+					color: #212121;
+					letter-spacing: -2.5px;
 				}
 
 				.project-info-coworker {
