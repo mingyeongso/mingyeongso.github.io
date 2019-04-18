@@ -1,14 +1,15 @@
-// // Get the container element
-// var btnContainer = document.getElementById("myDIV");
 
-// // Get all buttons with class="btn" inside the container
-// var btns = btnContainer.getElementsByClassName("btn");
+/* javascript */
+window.addEventListener('scroll', function() {
+  var el = document.querySelector('.nav');
+  
+  if(window.scrollY >= 680) el.classList.add('shown');
+  else el.classList.remove('shown');
+});
 
-// // Loop through the buttons and add the active class to the current/clicked button
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function() {
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     this.className += " active";
-//   });
-// }
+window.addEventListener('scroll', function() {
+  var el = document.querySelector('.main');
+  
+  if(window.scrollY >= 100) el.classList.add('shown');
+  else el.classList.remove('shown');
+});
