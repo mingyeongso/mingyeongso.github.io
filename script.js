@@ -2,9 +2,12 @@
 /* scroll */
 window.addEventListener('scroll', function() {
   var el = document.querySelector('.nav');
+  var cover = document.querySelector('.project-cover');
   
   if(window.scrollY >= 400) el.classList.add('shown');
+  if(window.scrollY >= 400) cover.classList.add('hide');
   else el.classList.remove('shown');
+  else cover.classList.remove('hide');
 });
 
 window.addEventListener('scroll', function() {
@@ -13,6 +16,13 @@ window.addEventListener('scroll', function() {
   if(window.scrollY >= 100) el.classList.add('shown');
   else el.classList.remove('shown');
 });
+
+// window.addEventListener('scroll', function() {
+//   var el = document.querySelector('.project-cover');
+  
+//   if(window.scrollY >= 200) el.classList.add('hide');
+//   else el.classList.remove('hide');
+// });
 
 
 window.addEventListener('scroll', function() {
