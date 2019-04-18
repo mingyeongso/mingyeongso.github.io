@@ -19,3 +19,23 @@
 .hide {
 	display: none !important;
 }
+
+
+.needs-text {
+	visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateY(20px) scale(1);
+    transform: translateY(20px) scale(1);
+    
+}
+
+
+.needs-text.text-shown {
+	transition-property: opacity, visibility, transform;
+	visibility: visible;
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.0001s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.0001s;
+    transition: transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.0001s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.0001s;
+}

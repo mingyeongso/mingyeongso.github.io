@@ -15,6 +15,21 @@ window.addEventListener('scroll', function() {
 });
 
 
+window.addEventListener('scroll', function() {
+  var el = document.querySelector('.needs-text');
+  
+  if(window.scrollY >= 500) el.classList.add('text-shown');
+  else el.classList.remove('text-shown');
+});
+
+
+
+
+
+
+/* chip */
+
+
 function button2_click() {
 	var chip01 = document.querySelector('.chip01');
 	var chip02 = document.querySelector('.chip02');
