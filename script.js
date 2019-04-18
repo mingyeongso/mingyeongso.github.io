@@ -7,12 +7,7 @@ window.addEventListener('scroll', function() {
   else el.classList.remove('shown');
 });
 
-window.addEventListener('scroll', function() {
-  var cover = document.querySelector('.project-cover');
 
-  if(window.scrollY >= 200) cover.classList.add('hide');
-  else cover.classList.remove('hide');
-});
 
 
 

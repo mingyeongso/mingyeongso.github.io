@@ -102,6 +102,11 @@ body {
 
 				}
 
+				.project-info-role li > *{
+					cursor: default;
+
+				}
+
 .project-contents-section {
 }
 
@@ -116,6 +121,8 @@ body {
 			margin-top: 120px;
 
 		}
+
+
 
 			.section-title {
 				font-size: 16px;
