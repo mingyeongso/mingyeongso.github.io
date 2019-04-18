@@ -2,12 +2,9 @@
 /* scroll */
 window.addEventListener('scroll', function() {
   var el = document.querySelector('.nav');
-  var cover = document.querySelector('.project-cover');
-  
+
   if(window.scrollY >= 400) el.classList.add('shown');
-  if(window.scrollY >= 400) cover.classList.add('hide');
   else el.classList.remove('shown');
-  else cover.classList.remove('hide');
 });
 
 window.addEventListener('scroll', function() {
@@ -17,12 +14,6 @@ window.addEventListener('scroll', function() {
   else el.classList.remove('shown');
 });
 
-// window.addEventListener('scroll', function() {
-//   var el = document.querySelector('.project-cover');
-  
-//   if(window.scrollY >= 200) el.classList.add('hide');
-//   else el.classList.remove('hide');
-// });
 
 
 window.addEventListener('scroll', function() {
@@ -57,7 +48,7 @@ function button2_click() {
 	row01.classList.remove('hide');
 
 
-}
+};
 
 function button3_click() {
 	var chip01 = document.querySelector('.chip01');
@@ -75,7 +66,7 @@ function button3_click() {
 	row01.classList.add('hide');
 	row02.classList.remove('hide');
 
-}
+};
 
 function button1_click() {
 	var chip01 = document.querySelector('.chip01');
@@ -93,4 +84,4 @@ function button1_click() {
 	row01.classList.remove('hide');
 	row02.classList.remove('hide');
 
-}
+};
