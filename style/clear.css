@@ -34,3 +34,11 @@ li {
 	li a {
 		display: inline-block;
 	}
+
+*:focus {
+    outline: 0;
+}
+
+button {
+  border: 0;
+}

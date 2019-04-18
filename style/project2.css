@@ -38,10 +38,68 @@
 
 .section-components {
 
+    
+
 }
 
-	.section-components .ui-components{
-
-		background-image: url('../img/components-project2.png');
+	.section-components .component1{
+		background-size: contain;
+	    margin-bottom: 40px;
+	    height: 740px;
+		background-image: url('../img/components-project2-1.png');
 
 	}
+
+	.section-components .component2{
+		background-size: contain;
+		margin-bottom: 40px;
+		height: 650px;
+		background-image: url('../img/components-project2-2.png');
+
+	}
+
+	.section-components .output1{
+		background-size: cover;
+	    margin-bottom: 40px;
+	    height: 1920px;
+		background-image: url('../img/output-project2-1.png');
+
+	}
+
+	.section-components .output2{
+		background-size: cover;
+		margin-bottom: 40px;
+		height: 1500px;
+		background-image: url('../img/output-project2-2.png');
+
+	}
+
+	.section-components .output3{
+		background-size: cover;
+		margin-bottom: 40px;
+		height: 1140px;
+		background-image: url('../img/output-project2-3.png');
+
+	}
+
+	.section-components .output4{
+		background-size: contain;
+	    
+	    height: 800px;
+		background-image: url('../img/output-project2-4.png');
+
+	}
+
+	/*.section-components .output5{
+		background-size: contain;
+		height: 650px;
+		background-image: url('../img/output-project2-5.png');
+
+	}
+
+	.section-components .output6{
+		background-size: contain;
+		height: 650px;
+		background-image: url('../img/output-project2-6.png');
+
+	}*/

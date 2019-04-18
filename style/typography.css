@@ -10,7 +10,8 @@ h1 {
 
 h2 {
 	font-size: 48px;
-	letter-spacing: -2.5px;
+	letter-spacing: -1px;
+	line-height: 64px;
 	font-family: 'Roboto Slab', 'Roboto', 'Helvetica Neue','helvetica', 'airal', 'Noto Sans KR', san-serif;
 }
 
@@ -32,6 +33,7 @@ h5 {
 
 p {
 	font-size: 16px;
+	line-height: 24px;
 }
 
 caption {

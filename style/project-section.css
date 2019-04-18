@@ -69,20 +69,18 @@
 
 }
 	.goal-card {
-		border-radius: 3px;
 		background-color: #fff;
 		text-align: center;
-		padding: 128px 100px 140px;
+		padding: 88px 100px 100px;
 /*		-webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
 	    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);*/
-	    background-color: #FCFCFC;
-		border: 1px solid rgba(0, 0, 0, 0.03);
-		border-radius: 3px;
+
 
 	}
 
 	.goal-card h3 {
 		font-weight: bold;
+		color: #212121;
 	}
 
 	.goal-card p {
@@ -96,16 +94,16 @@
 }
 
 	.section-flow .section-body{
-		background-color: #FCFCFC;
+/*		background-color: #FCFCFC;
 		border: 1px solid rgba(0, 0, 0, 0.03);
-		border-radius: 3px;
+		border-radius: 3px;*/
 		
 	}
 
 
 	.flow-contents-box {
 		margin: 0 auto;
-		padding: 120px 180px
+		padding: 120px 180px 140px;
 	}
 
 	.flow-main.flex-px {
@@ -165,9 +163,11 @@
 }
 
 	.layout-view {
-		background-color: #FCFCFC;
+		background-color: #f9fafb;
 		height: fit-content;
 		color: #424242;
+		border-radius: 6px;
+
 
 	}
 
@@ -178,20 +178,21 @@
 
 	.layout-view .flex-box > div {
 		text-align: center;
-		padding: 36px 40px;
+		padding: 44px 40px;
 		border-top: 1px rgba(0, 0, 0, 0.03) solid;
 		font-size: 16px;
+		font-weight: bold;
 
 
 	}
 
 	.layout-view .flex-box.narrow > div {
-		padding: 16px 40px;
+		padding: 36px 40px;
 
 	}
 
 	.layout-view .flex-box.wide > div {
-		padding: 80px 40px;
+		padding: 88px 40px;
 
 	}
 
@@ -227,8 +228,8 @@
 		background-color: #FCFCFC;
 		background-repeat: no-repeat;
 		background-size: cover;
-		border: 1px solid rgba(0, 0, 0, 0.03);
-		border-radius: 3px;
+/*		border: 1px solid rgba(0, 0, 0, 0.03);
+*//*		border-radius: 3px;*/
 
 	}
 
@@ -238,23 +239,37 @@
 		background-color: #FCFCFC;
 		background-repeat: no-repeat;
 		background-size: cover;
-		border: 1px solid rgba(0, 0, 0, 0.03);
-		border-radius: 3px;
+		
 	}
 
 	.section-responsive .responsive-mobile {
 		background-color: #FCFCFC;
 		background-repeat: no-repeat;
 		background-size: cover;
-		border: 1px solid rgba(0, 0, 0, 0.03);
-		border-radius: 3px;
+		
 
 	}
 
 
 	.img-caption {
-		margin-top: 8px !important;
+		margin-top: 12px !important;
 		margin-bottom: 24px;
+		font-size: 12px;
+	}
+
+.section-imageguide {
+
+}
+
+	.section-imageguide .imageguide {
+		background-color: #FCFCFC;
+		background-repeat: no-repeat;
+		background-size: cover;
+/*		border: 1px solid rgba(0, 0, 0, 0.03);
+*/		border-radius: 3px;
+		height: 380px;
+		margin-bottom: 48px;
+		
 	}
 
 .section-components {
@@ -266,5 +281,5 @@
 		height: 1000px;
 		background-repeat: no-repeat;
 		background-size: cover;
-		border: 1px solid rgba(0, 0, 0, 0.03);
-	}
+/*		border: 1px solid rgba(0, 0, 0, 0.03);
+*/	}

@@ -24,7 +24,7 @@ body {
     transform:rotate(-20deg) translateX(-50%); 
     opacity: 1;
     border-radius: 6px;
-    box-shadow: -1px -5px 10px -5px rgba(0,0,0,.02);
+    box-shadow: rgba(218, 225, 233, 0.2) -16px 0 16px;
 }
 	
 
@@ -46,6 +46,8 @@ body {
 		margin: 0 auto;
 		padding-top: 56px;
 		padding-bottom: 56px;
+		box-shadow: rgba(218, 225, 233, 0.2) 0px 8px 16px;
+		border-radius: 6px;
 	}
 
 		.project-info {
@@ -67,7 +69,7 @@ body {
 
 					.project-info-coworker li {
 						vertical-align: top;
-						margin-right: 40px;
+						margin-right: 44px;
 					}
 
 					.coworker-job {
@@ -78,8 +80,9 @@ body {
 					}
 
 					.coworker-name {
-						margin-top: 2px;
-						color: ;
+					    margin-top: 2px;
+					    color: #212121;
+					    font-size: 20px;
 					}
 
 				.project-year {
@@ -114,6 +117,7 @@ body {
 		}
 
 			.section-title {
+				font-size: 16px;
 				margin-top: 72px;
 				font-weight: bold;
 				letter-spacing: 0.5px;
@@ -122,13 +126,13 @@ body {
 			}
 
 			.section-body {
-				margin-top: 36px;
+				margin-top: 60px;
 				font-family: 'Noto Sans KR', 'Helvetica Neue','helvetica', 'airal', san-serif;
 			}
 				.section-body h5 {
 					font-weight: bold;
-					color: #212121;
-				}
+/*					color: #212121;
+*/				}
 
 
 				.section-body p {
@@ -142,11 +146,13 @@ body {
 	border-top: 1px rgba(0, 0, 0, .03) solid;
 	text-align: right;
 	padding: 40px 68px 0;
+
 }
 
 	.proejct-footer a {
 		font-size: 20px;
 		font-weight: bold;
+		font-size: 16px;
 	}
 
 .footer {
