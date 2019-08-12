@@ -1,26 +1,3 @@
-
-/* scroll */
-window.addEventListener('scroll', function() {
-  var el = document.querySelector('.nav');
-
-  if(window.scrollY >= 400) el.classList.add('shown');
-  else el.classList.remove('shown');
-});
-
-
-
-
-
-
-window.addEventListener('scroll', function() {
-  var el = document.querySelector('.needs-text');
-  
-  if(window.scrollY >= 500) el.classList.add('text-shown');
-  else el.classList.remove('text-shown');
-});
-
-
-
-
-
-
+if ( window.location == 'https://mingyeongso.github.io/' ) {
+&nbsp; window.location.href='https://www.notion.so/mingyeongso/Mingyeong-So-16680e669e604f62a3dd2b0aaa476324';
+}
